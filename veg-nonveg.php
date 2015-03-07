@@ -13,6 +13,13 @@
 		<link rel="stylesheet" type="text/css" href="css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
 		<script src="js/modernizr.custom.js"></script>
+		<style type="text/css">
+		body {
+			background-image: url(http://www.adocnazionale.it/wp-content/uploads/2013/03/323304-blackangel.jpg);
+			background-size: cover;
+			font-family: 'Lato', Arial, sans-serif;
+		}
+		</style>
 	</head>
 	<body>
 		<div class="container">
@@ -20,7 +27,6 @@
 			<div class="codrops-top clearfix">
 				<img src="images/flogo-s.png">
 				<a class="codrops-icon codrops-icon-prev" href="index.html"><span>Home</span></a>
-				<span class="right"><a class="codrops-icon codrops-icon-drop" href="http://tympanus.net/codrops/?p=16637"><span>Back to the Codrops Article</span></a></span>
 			</div>
 			<section>
 				<form class="ac-custom ac-radio ac-fill" autocomplete="off">
@@ -33,7 +39,7 @@
 					</ul>
 					<right>
 					<p align="right"><b>Move to next step: Base Ingredients</b></p>
-					<input type="button" style="background: url(images/next.png) no-repeat; width:64px; height:64px; float: right">
+					<input type="button" style="background: url(images/next.png) no-repeat; width:64px; height:64px; float: right" onClick="location.href='jain-cereals.php'">
 					</right>
 				</form>
 			</section>

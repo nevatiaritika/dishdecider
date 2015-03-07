@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-		<title>Choose your diet style</title>
+		<title>Select Pulses</title>
 		<meta name="description" content="Animated Checkboxes and Radio Buttons with SVG: Using SVG for adding some fancy 'check' animations to form inputs" />
 		<meta name="keywords" content="animated checkbox, svg, radio button, styled checkbox, css, pseudo element, form, animated svg" />
 		<meta name="author" content="Codrops" />
@@ -13,6 +13,13 @@
 		<link rel="stylesheet" type="text/css" href="css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
 		<script src="js/modernizr.custom.js"></script>
+		<style type="text/css">
+		body {
+			background-image: url(http://foodswol.com/wp-content/uploads/2014/05/frosted_sugar_cookie_lrg.jpg);
+			background-size: cover;
+			font-family: 'Lato', Arial, sans-serif;
+		}
+		</style>
 	</head>
 	<body>
 		<div class="container">
@@ -39,7 +46,7 @@
 					</ul>
 					<right>
 					<p align="right"><b>Move to next step: Vegetables</b></p>
-					<input type="button" style="background: url(images/next.png) no-repeat; width:64px; height:64px; float: right">
+					<input type="button" style="background: url(images/next.png) no-repeat; width:64px; height:64px; float: right" onClick="location.href='vegetables.php'">
 					</right>
 				</form>
 			</section>

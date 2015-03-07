@@ -13,13 +13,20 @@
 		<link rel="stylesheet" type="text/css" href="css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
 		<script src="js/modernizr.custom.js"></script>
+		<style type="text/css">
+		body {
+			background-image: url(http://hdwyn.com/thumbnail/cucumbers_tomatoes_plate_dill_hd-wallpaper-75414.jpg);
+			background-size: cover;
+			font-family: 'Lato', Arial, sans-serif;
+		}
+		</style>
 	</head>
 	<body>
 		<div class="container">
 			<!-- Top Navigation -->
 			<div class="codrops-top clearfix">
 				<img src="images/flogo-s.png">
-				<a class="codrops-icon codrops-icon-prev" href="jain-cereals.php"><span>Back to pulses selection</span></a>
+				<a class="codrops-icon codrops-icon-prev" href="pulses.php"><span>Back to pulses selection</span></a>
 				<span class="right"><a class="codrops-icon codrops-icon-drop" href="index.html"><span>Home</span></a></span>
 			</div>
 			<section>
@@ -36,7 +43,7 @@
 						<li style="position: absolute; left: 500px;"><input id="cb08" name="cb08" type="checkbox"><label for="cb08">Corn</label></li>
 						<li style="position: absolute; left: 800px;"><input id="cb12" name="cb12" type="checkbox"><label for="cb12">Cauliflower</label></li><br><br><br>
 						<li style="position: absolute; left: 200px;"><input id="cb13" name="cb13" type="checkbox"><label for="cb13">Onion</label></li>
-						<li style="position: absolute; left: 500px;"><input id="cb14" name="cb14" type="checkbox"><label for="cb14">Garlic</label></li>
+						<li style="position: absolute; left: 500px;"><input id="cb14" name="cb14" type="checkbox"><label for="cb14">Celery</label></li>
 						<li style="position: absolute; left: 800px;"><input id="cb15" name="cb15" type="checkbox"><label for="cb15">Carrot</label></li><br><br><br>
 						<li style="position: absolute; left: 200px;"><input id="cb16" name="cb16" type="checkbox"><label for="cb16">Radish</label></li>
 						<li style="position: absolute; left: 500px;"><input id="cb17" name="cb17" type="checkbox"><label for="cb17">Lettuce</label></li>
@@ -50,7 +57,7 @@
 			</section>
 			<right>
 					<p align="right" style="position: absolute; right: 100px;"><b>Move to next step: Fruits</b></p><br><br><br>
-					<input type="button" style="background: url(images/next.png) no-repeat; width:64px; height:64px; position: absolute; right: 175px;">
+					<input type="button" style="background: url(images/next.png) no-repeat; width:64px; height:64px; position: absolute; right: 175px;" onClick="location.href='fruits.php'">
 					</right>
 		</div><!-- /container -->
 		<script src="js/svgcheckbx.js"></script>
