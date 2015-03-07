@@ -24,15 +24,21 @@
 			</div>
 			<section>
 				<form class="ac-custom ac-checkbox ac-boxfill" autocomplete="off">
-					<h2>Which cereals do you have?</h2>
+					<h2>What base ingredients do you have right now?</h2>
 					<ul>
-						<li><input id="cb10" name="cb10" type="checkbox"><label for="cb10">Rice</label></li>
-						<li><input id="cb11" name="cb11" type="checkbox"><label for="cb11">Wheat</label></li>
-						<li><input id="cb12" name="cb12" type="checkbox"><label for="cb12">Jowar</label></li>
-						<li><input id="cb13" name="cb13" type="checkbox"><label for="cb13">Bajra</label></li>
+						<li style="position: absolute; left: 600px;"><input id="cb01" name="cb01" type="checkbox"><label for="cb10">Rice</label></li>
+						<li><input id="cb02" name="cb02" type="checkbox"><label for="cb11">Wheat</label></li>
+						<li style="position: absolute; left: 600px;"><input id="cb03" name="cb03" type="checkbox"><label for="cb12">Jowar</label></li>
+						<li><input id="cb04" name="cb04" type="checkbox"><label for="cb13">Bajra</label></li>
+						<li style="position: absolute; left: 600px;"><input id="cb05" name="cb05" type="checkbox"><label for="cb13">Paneer</label></li>
+						<li><input id="cb06" name="cb06" type="checkbox"><label for="cb13">Noodles</label></li>
+						<li style="position: absolute; left: 600px;"><input id="cb07" name="cb07" type="checkbox"><label for="cb13">Pasta</label></li>
+						<li><input id="cb08" name="cb08" type="checkbox"><label for="cb13">Bread</label></li>
+						<li style="position: absolute; left: 600px;"><input id="cb09" name="cb09" type="checkbox"><label for="cb13">Chocolate</label></li>
+						<li><input id="cb10" name="cb10" type="checkbox"><label for="cb13">Oats</label></li>
 					</ul>
 					<right>
-					<p align="right"><b>Move to next step</b></p>
+					<p align="right"><b>Move to next step: Pulses</b></p>
 					<input type="button" style="background: url(images/next.png) no-repeat; width:64px; height:64px; float: right">
 					</right>
 				</form>

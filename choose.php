@@ -18,7 +18,7 @@
 		<div class="container">
 			<!-- Top Navigation -->
 			<div class="codrops-top clearfix">
-				<img src="images/logo-med.png">
+				<img src="images/logo-sm.png">
 				<a class="codrops-icon codrops-icon-prev" href="http://tympanus.net/Development/SectionSeparators/"><span>Previous Demo</span></a>
 				<span class="right"><a class="codrops-icon codrops-icon-drop" href="http://tympanus.net/codrops/?p=16637"><span>Back to the Codrops Article</span></a></span>
 			</div>

@@ -32,7 +32,7 @@
 						<li><input id="r3" name="r1" type="radio"><label for="r3">Non-Vegetarian</label></li>
 					</ul>
 					<right>
-					<p align="right"><b>Move to next step</b></p>
+					<p align="right"><b>Move to next step: Base Ingredients</b></p>
 					<input type="button" style="background: url(images/next.png) no-repeat; width:64px; height:64px; float: right">
 					</right>
 				</form>
